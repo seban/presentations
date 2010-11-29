@@ -1,0 +1,9 @@
+{
+  "name": "Capistrano",
+  "description": "Capistrano dla TRUG#5",
+  "sections": [
+    {"section":"one"},
+    {"section":"two"},
+    {"section":"three"} 
+  ]
+}
