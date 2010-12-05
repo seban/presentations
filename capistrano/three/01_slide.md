@@ -68,3 +68,15 @@
   * masz szybkie łącze repo - serwery produkcyjne
   * nie kryjesz się z deployem
   * masz zasady deploymentu
+  
+!SLIDE transition=fade
+
+# implixify
+### nakładka na Capistrano by Implix
+### in-house use only ;)
+## Wystarczy wpisać nazwę aplikacji do Capfile
+## i podać adresy serwerów
+
+!SLIDE transition=fade
+
+# The End
