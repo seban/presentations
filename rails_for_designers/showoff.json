@@ -2,6 +2,7 @@
   "name": "Rails for designers",
   "sections": [
     {"section":"environment"},
-    {"section":"rails"} 
+    {"section":"rails"},
+    {"section":"links"} 
   ]
 }
