@@ -1,6 +1,7 @@
 !SLIDE smaller smbullets
 ## Links ##
   * http://rubyinstaller.org
+  * http://railsinstaller.org
   * http://guides.rubyonrails.org
   * http://railscasts.com/tags/4
 
