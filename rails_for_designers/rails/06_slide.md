@@ -84,7 +84,7 @@
     <input type="text" id="user_name" name="user[name]" />
 
     <%= text_field :user, :name, :class => "text" %>
-    <input type="test" id="user_name" name="user[name]"
+    <input type="text" id="user_name" name="user[name]"
       class="text" />
 
 !SLIDE small

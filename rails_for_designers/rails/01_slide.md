@@ -1,3 +1,6 @@
+!SLIDE center
+![octocat](rails_logo.jpg)
+
 !SLIDE center bullets incremental
 # Rails #
 ## MVC framework for web applications ##
@@ -41,7 +44,7 @@
       <% if logged_in? %>
         Jesteś zalogowany jako: <%= current_user.login %>
       <% else %>
-        <%= link_to "Zaloguj sie", signup_url %>
+        <%= link_to "Zaloguj sie", signup_path %>
       <% end %>
     </p>
     <p>Jesteś zalogowany jako: my_login</p>

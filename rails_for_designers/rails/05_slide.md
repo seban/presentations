@@ -6,7 +6,7 @@
 !SLIDE smaller
 # TranslationHelper - Przykłady ##
     @@@Html
-    <%= t('main.greetings') %>
+    <%= t('main.greeting') %>
     Witaj!
     
     <%= t('main.greeting_with_name',

@@ -41,5 +41,5 @@
       <%= image_tag @user.avatar_url %>
     <% end %>
     <a href="/users/1024">
-      <img. src="/images/avatars/1024/avatar.png" />
+      <img src="/images/avatars/1024/avatar.png" />
     </a>

@@ -4,7 +4,8 @@
 !SLIDE center
 # Environment #
 ## Ruby Installer ##
-Ruby - http://rubyinstaller.org
+### Ruby - http://rubyinstaller.org ###
+### Rails - http://railsinstaller.org ###
 
 !SLIDE center
 # RubyGems #

@@ -9,16 +9,16 @@
 ## AssetHelper - Przykłady ##
     @@@Html
     <%= image_tag('rails.png') %>
-    <img. src="/images/rails.png" />
+    <img src="/images/rails.png" />
     
     <%= image_tag('rails.png', :class => "images logo")
-    <img. src="/images/rails.png" class="images logo" />
+    <img src="/images/rails.png" class="images logo" />
     
     <%= image_tag('rails.png', :alt => "To jest logo Rails")
-    <img. src="/images/rails.png" alt="To jest logo Rails" />
+    <img src="/images/rails.png" alt="To jest logo Rails" />
     
     <%= image_tag('content/logo.png') %>
-    <img. src="/images/content/logo.png" />
+    <img src="/images/content/logo.png" />
 
 !SLIDE smaller
 # AssetHelper - Przykłady #

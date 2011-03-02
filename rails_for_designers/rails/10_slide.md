@@ -51,14 +51,14 @@
 
 !SLIDE smaller
 ## Partiale - object ##
-      @@@Html
-      <%= render :partial => "user", :object => @user %>
-      <%= render @user %>
+    @@@Html
+    <%= render :partial => "user", :object => @user %>
+    <%= render @user %>
       
-      # partial _user.html.rhtml
-      <p>
-        User login: <%= user.login %>
-      </p>
+    # partial _user.html.rhtml
+    <p>
+      User login: <%= user.login %>
+    </p>
 
 !SLIDE smaller
 ## Partiale - collection ##

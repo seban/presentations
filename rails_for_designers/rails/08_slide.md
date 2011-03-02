@@ -1,5 +1,6 @@
-!SLIDE
-# HTML5 & Rails #
+!SLIDE center
+## HTML5 & Rails ##
+![HTML 5](we-can-do-html5.jpg)
 
 !SLIDE smaller
 ## HTML5 Inputs ##
