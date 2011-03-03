@@ -5,7 +5,7 @@
 !SLIDE smaller
 ## FormHelper - Przykład ##
     @@@Html
-    <% form_for :person, @person, :url => { :action => "create" } do |f| %>
+    <% form_for @person, :url => { :action => "create" } do |f| %>
       <%= f.text_field :first_name %>
       <%= f.text_field :last_name %>
       <%= submit_tag 'Create' %>
@@ -21,7 +21,7 @@
     
 !SLIDE smaller
     @@@Html
-    <%= check_box(:user, :tos_approved, ) %>
+    <%= check_box(:user, :tos_approved) %>
     <input type="checkbox" name="user[tos_approved]" value="1"/>
     <input type="hidden" name="user[tos_approved]" value="0" />
     
@@ -94,3 +94,23 @@
 
     <%= label :user, :login, :class => "label" %>
     <label for="user_login" class="label">Login</label>
+    
+!SLIDE
+# Helper rocks #
+    
+    @@@Html
+    <%= form("post") %>
+    
+!SLIDE smaller
+    @@@Html
+    <form action='/posts/create' method='post'>
+      <p>
+        <label for="post_title">Title</label><br />
+        <input id="post_title" name="post[title]" size="30" type="text" value="Hello World" />
+      </p>
+      <p>
+        <label for="post_body">Body</label><br />
+        <textarea cols="40" id="post_body" name="post[body]" rows="20"></textarea>
+      </p>
+      <input name="commit" type="submit" value="Create" />
+    </form>

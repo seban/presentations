@@ -4,10 +4,10 @@
 
 !SLIDE smaller
     @@@Html
-    <%= number_to_currency 1234567890.50 >
+    <%= number_to_currency 1234567890.50 %>
     $1,234,567,890.50
     
-    <%= number_to_currency(1234567890.506, :precision => 3)
+    <%= number_to_currency(1234567890.506, :precision => 3) %>
     $1,234,567,890.506
     
     <%= number_to_currency(1234567890.50, :unit => "&pound;", 
@@ -15,8 +15,18 @@
     &pound;1234567890,50
     
     <%= number_to_currency(1234567890.50, :unit => "&pound;", 
-      :separator => ",", :delimiter => "", :format => "%n %u")
+      :separator => ",", :delimiter => "", :format => "%n %u") %>
     1234567890,50 &pound;
+    
+!SLIDE smaller
+    @@@Html
+    <%# us locale %>
+    <%= number_to_currency 12.67 %>
+    12.67
+    
+    <%# pl locale %>
+    <%= number_to_currency 12.67 %>
+    12,67
 
 !SLIDE smaller
     @@@Html

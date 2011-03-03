@@ -37,3 +37,13 @@
       :confirm => "Are you sure?" %>
     <a href="/users/1024" data-method="delete"
       data-confirm="Are you sure?">Delete</a>
+
+!SLIDE smaller
+    @@@Html
+    <%= video_tag "promo">
+    <video src="/videos/trailer" />
+    
+    video_tag("trailer.m4v", :size => "16x10",
+      :poster => "screenshot.png")
+    <video src="/videos/trailer.m4v" width="16" height="10"
+      poster="/images/screenshot.png" />

@@ -34,6 +34,9 @@
 
     <%= link_to "User", user_path(@user) %>
     <a href="/users/1024">User</a>
+    
+    <%= link_to "POST to WP", "http://wp.pl", :method => "post" %>
+    <a href="http://wp.pl" data-method="post" rel="nofollow">POST ...</a>
 
 !SLIDE smaller
     @@@Html

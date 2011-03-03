@@ -6,9 +6,9 @@
 
 !SLIDE bullets incremental
 ## Nazwy ##
-  * index.html.rhtml
+  * index.html.erb
   * index.rss.builder
-  * _form.html.rhtml
+  * _form.html.haml
 
 !SLIDE smaller
 ## Layout ##

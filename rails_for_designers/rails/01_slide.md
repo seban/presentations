@@ -37,6 +37,42 @@
       <li>Numerek to: 4</li>
       <li>Numerek to: 5</li>
     </ul>
+    
+!SLIDE smaller
+    @@@Html
+    <table>
+    <% @payouts.each do |payout| %>
+      <tr class="<%= cycle("odd", "even") %>">
+        <td><%= payout.amount %></td>
+        <td><%= payout.created_at.to_s(:only_date) %></td>
+        <td><%= link_to "Show", payout_path(payout) %>
+      </tr>
+    <% end %>
+    </table>
+    
+!SLIDE smaller
+    @@@Html
+    <table>
+      <tr class="odd">
+        <td>45.89</td>
+        <td>2011-02-15</td>
+        <td><a href="/payouts/2">Show</a>
+      </tr>
+      <tr class="even">
+        <td>205.14</td>
+        <td>2011-01-15</td>
+        <td><a href="/payouts/1">Show</a>
+      </tr>
+    </table>
+    
+!SLIDE smaller
+# HAML #
+    %table
+      - @payouts.each do |payout|
+        %tr{ :class => cycle("odd", "even") }
+          %td= payout.amount
+          %td= payout.created_at.to_s(:only_date)
+          %td= link_to "Show", payout_path(payout)
 
 !SLIDE small
     @@@Ruby
