@@ -1,5 +1,5 @@
 !SLIDE 
-# Rails for designers #
+# Rails for webmaster #
 
 !SLIDE center
 # Environment #
