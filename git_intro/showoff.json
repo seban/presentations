@@ -1,0 +1,8 @@
+{ "name": "git intro",
+  "sections": [
+    {"section":"one"},
+    {"section":"dvcs"},
+    {"section":"git_workflow"}
+  ]
+}
+
