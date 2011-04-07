@@ -1,3 +1,14 @@
+!SLIDE smbullets
+## Wsparcie aplikacji ##
+  * TextMate
+  * JetBrains (RubyMine, PHPStorm, ...)
+  * Eclipse - pluginy
+  * NetBeans - pluginy, od 7.0 wbudowany
+  * GitX
+  * Tower.app
+  * gitg 
+
+
 !SLIDE center smbullets
 
 ## Linki ##
