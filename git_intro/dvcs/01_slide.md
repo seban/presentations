@@ -1,3 +1,6 @@
+!SLIDE
+# git intro #
+
 !SLIDE 
 # Idea #
 
