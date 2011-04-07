@@ -49,3 +49,7 @@
     
     * uaktualnia remote, tylko jeden branch
     * wykonywany jest merge z lokalnym branchem
+
+!SLIDE center
+## git-svn ##
+![img/cosielubi.jpg](img/cosielubi.jpg)
