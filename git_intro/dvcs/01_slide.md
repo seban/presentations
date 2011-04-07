@@ -3,14 +3,13 @@
 
 ## DVCS - Distributed Version Control System ##
 
-!SLIDE
-
+!SLIDE bullets
 # Przykłady #
 
-    * git
-    * Mercurial - hg
-    * Bazaar
-    * Darcs
+  * git
+  * Mercurial - hg
+  * Bazaar
+  * Darcs
 
 !SLIDE center
 
@@ -29,12 +28,15 @@
   * mnogość rozgałęzień
   * dostosowany do dużych projektów
 
-!SLIDE
+!SLIDE smbullets
 ## Przykładowe użycie ##
 
-    * Każdy z użytkowników ma repozytorium
-      u siebie lokalnie
-    * Użytkownicy mogą wymieniać się zmianami
-      - wiele mergy
-    * Repozytorium centralne -
-      łączy zmiany użytkowników
+  * Każdy z użytkowników ma repozytorium u siebie lokalnie
+  * Użytkownicy mogą wymieniać się zmianami - wiele mergy
+  * Repozytorium centralne - łączy zmiany użytkowników
+
+!SLIDE center
+![img/pomyslowosc.jpg](img/pomyslowosc.jpg)
+
+!SLIDE center
+# W git jedyny, sluszny 'workflow' nie istnieje #
