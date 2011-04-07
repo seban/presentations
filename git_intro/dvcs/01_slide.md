@@ -20,7 +20,17 @@
 
 ![img/distributed_example.png](img/distributed_example.png)
 
+!SLIDE center bullets
+# git właściwości #
+
+  * szybkość
+  * prostota
+  * rozproszenie
+  * mnogość rozgałęzień
+  * dostosowany do dużych projektów
+
 !SLIDE
+## Przykładowe użycie ##
 
     * Każdy z użytkowników ma repozytorium
       u siebie lokalnie
