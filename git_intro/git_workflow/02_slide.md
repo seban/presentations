@@ -122,5 +122,19 @@
     $ git log master..my_new_branch --oneline
 
 !SLIDE center
+# Tagi #
+![img/tags.jpg](img/tags.jpg)
+
+!SLIDE commandline incremental
+# git tag #
+
+    $ git tag
+    $ git tag -l 'v1.1.*'
+    $ git tag 'v1.5'
+    $ git tag -a v1.4.4 -m 'Wydanie nowej wersji'
+    $ git push origin tag_name
+    $ git push origin --tags
+
+!SLIDE center
 ## git-svn ##
 ![img/cosielubi.jpg](img/cosielubi.jpg)
