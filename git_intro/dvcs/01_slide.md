@@ -1,7 +1,7 @@
 !SLIDE
 # git intro #
 
-!SLIDE 
+!SLIDE
 # Idea #
 
 ## DVCS - Distributed Version Control System ##
@@ -22,7 +22,7 @@
 
 ![img/distributed_example.png](img/distributed_example.png)
 
-!SLIDE center bullets
+!SLIDE bullets incremental
 # git właściwości #
 
   * szybkość
