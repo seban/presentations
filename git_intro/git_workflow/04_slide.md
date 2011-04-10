@@ -6,7 +6,7 @@
   * NetBeans - pluginy, od 7.0 wbudowany
   * GitX
   * Tower.app
-  * gitg 
+  * gitg
 
 
 !SLIDE center smbullets
@@ -21,3 +21,4 @@
   * http://365git.tumblr.com/
   * http://blog.matthew.org.pl/2010/03/18/agile-git-workflow/
   * http://peepcode.com/products/git
+  * http://cheat.errtheblog.com/s/git/
