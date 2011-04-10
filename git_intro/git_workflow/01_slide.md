@@ -46,7 +46,7 @@
 
 !SLIDE commandline incremental
 
-# Dodawanie zmian  
+# Dodawanie zmian
 
     $ git add .gitignore
     $ git commit -m "gitignore"
@@ -85,3 +85,4 @@
 
     $ git log --pretty=oneline
     8f64ccd811568bf7ebe9972b2961f01883b25944 gitignore
+    
