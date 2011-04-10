@@ -1,23 +1,37 @@
-!SLIDE smbullets
-## Wsparcie aplikacji ##
-  * TextMate
-  * JetBrains (RubyMine, PHPStorm, ...)
-  * Eclipse - pluginy
-  * NetBeans - pluginy, od 7.0 wbudowany
-  * GitX
-  * Tower.app
-  * gitg 
+!SLIDE
+# Workflow #
+## przykładowy workflow z git #
 
+!SLIDE small commanline
+# Nowy feature branch #
 
-!SLIDE center smbullets
+    $ git checkout -b support_for_operation_logging
+    Switched to a new branch 'support_for_operation_logging'
 
-## Linki ##
+!SLIDE smaller commandline
+# Implementacja, test, dokumentacja #
+## Done, done, done ##
 
-  * http://git-scm.com
-  * http://github.com
-  * http://gitcasts.com
-  * http://progit.org
-  * http://www.gitready.com/
-  * http://365git.tumblr.com/
-  * http://blog.matthew.org.pl/2010/03/18/agile-git-workflow/
-  * http://peepcode.com/products/git
+    $ git add lib/logger.rb lib/operation.rb test/operation_test.rb
+    $ git commit -m 'Dodanie wsparcia dla logowania operacji'
+    [support_for_operation_logging eae059d] Dodanie wsparcia dla logowania operacji
+    1 files changed, 1 insertions(+), 0 deletions(-)
+    create mode 100644 lib/logger.rb
+    create mode 100644 lib/operation.rb
+    create mode 100644 test/operation.rb
+
+!SLIDE commandline
+# Ujednolicenie drzewa #
+
+    $ git checkout master
+    $ git pull
+    $ git checkout support_for_operation_logging
+    $ git rebase master
+
+!SLIDE commandline
+# Merge brancha i push #
+## Podzielmy się naszą pracą ##
+
+    $ git checkout master
+    $ git merge support_for_operation_logging
+    $ git push
