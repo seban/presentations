@@ -22,3 +22,4 @@
   * http://blog.matthew.org.pl/2010/03/18/agile-git-workflow/
   * http://peepcode.com/products/git
   * http://cheat.errtheblog.com/s/git/
+  * http://whygitisbetterthanx.com/
