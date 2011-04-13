@@ -8,6 +8,11 @@
   * Tower.app
   * gitg
 
+!SLIDE center
+
+![img/github-logo.png](img/github-logo.png)
+# github #
+## http://github.com/implix ##
 
 !SLIDE center smbullets
 
