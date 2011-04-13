@@ -8,6 +8,8 @@ Slajdy z moich prezentracji.
     [Trójmiasto Ruby Users Group](http://trug.pl)
 2.  Rails for webmasters - krótkie wprowadzenie do warstwy prezentacji w Rails 3.0
     [Implix](http://implix.com)
+3.  Git intro - krótka prezentacja o systemie kontroli wersji git
+    [Implix](http://implix.com)
     
 # Oglądanie
 To jest prezentacja dla aplikacji [ShowOff](http://github.com/schacon/showoff).
