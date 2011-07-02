@@ -1,6 +1,7 @@
 { "name": "Jest rok 2011 - Test Driven Development to nic nowego",
   "sections": [
     {"section":"Autor"},
-    {"section":"Historia"}
+    {"section":"Historia"},
+    {"section":"Teoria"}
   ]
 }
