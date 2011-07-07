@@ -2,6 +2,9 @@
   "sections": [
     {"section":"Autor"},
     {"section":"Historia"},
-    {"section":"Teoria"}
+    {"section":"Teoria"},
+    {"section":"Akceptacyjne"},
+    {"section":"Jednostkowe"},
+    {"section":"Rozszerzenia"}
   ]
 }
