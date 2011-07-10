@@ -10,6 +10,8 @@ Slajdy z moich prezentracji.
     [Implix](http://implix.com)
 3.  Git intro - krótka prezentacja o systemie kontroli wersji git
     [Implix](http://implix.com)
+4.  2011 - Test Driven Development - krótka prezentacja wprowadzająca do Test Driven Development
+    [Implix](http://implix.com)
     
 # Oglądanie
 To jest prezentacja dla aplikacji [ShowOff](http://github.com/schacon/showoff).
